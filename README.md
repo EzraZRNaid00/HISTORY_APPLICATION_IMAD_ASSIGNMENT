@@ -6,7 +6,7 @@ For our first imad assignment we were given the challenge to design and create a
 The coding of this application was done on Android Studio which is the official integrated development environment for the development of Android applications (Android developers)   
 . It utilizes the Android software development kit to create a mobile application. The entire application was coded in the language of Kotlin due to the requirements of the criteria.
 
-GitHub's centre capability lies in its sturdy model management system, based on Git. Version manage permits coders to music modifications made to their code over time, facilitating seamless collaboration amongst a couple of builders. By using branches, builders can paintings on remoted functions or fixes with out affecting the principle codebase, thereby minimizing conflicts and making sure code integrity. Moreover, GitHub gives effective gear for code review, difficulty tracking, and venture management, allowing groups to coordinate efficiently and keep extraordinary requirements at some point of the improvement lifecycle.
+GitHub's centre capability lies in its sturdy model management system, based on Git. Version manage permits coders to see modifications made to their code over time, facilitating seamless collaboration amongst a couple of builders. By using branches, builders can collaborate on remoted functions or fixes with out affecting the principle codebase, thereby minimizing conflicts and making sure code integrity. Moreover, GitHub gives effective gear for code review, difficulty tracking, and venture management, allowing groups to coordinate efficiently and keep extraordinary requirements at some point of the improvement lifecycle.
 
 The code begins the package name , `com.example.historyapplication_imadassignment`, as that is what I named my assignment, it then proceeds with the declarations and necessary imports. This is so my variables are identified and given the necessary functions.
 
@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
 
 The `onCreate` method is called when the application is first created. Here, the layout is initialized and the UI components are bound to variables.
 
-```kotlin
 @SuppressLint("MissingInflatedId")
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -42,8 +41,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
     val iVHistoryBook= findViewById<ImageView>(R.id.iVHistoryBook)
     val library= findViewById<ImageView>(R.id.library)
     val blankpage= findViewById<ImageView>(R.id.blankpage)
-
-Explanation:
 
 - `enterage`, `btnenter`, `celebinfo`, `btnclear`, `iVHistoryBook`, `library`, and `blankpage` are variables representing user interface elements such as EditText, Button, and TextView.
 - They are initialized by finding the corresponding views using `findViewById`.
@@ -118,6 +115,15 @@ Explanation:
 - The text of `celebinfo` TextView is set to display information about the historical figure.
 - If the age is empty, it prompts the user to enter an age.
 
-I retrieved images linked in the assignment to add flare to my application and motivate users to make use of the application. I decided to use and image of an animated library to imply the knowledge. I then added the necessary buttons, i.e. the clear button to clear the edit text and age input when clicked and the search button to retrieve the information of the entered age. The entered age will display in a text view which I strategically placed over an image of an antique page. 
+I retrieved images linked in the assignment to add flare to my application and motivate users to make use of the application. I decided to use and image of an animated library to imply the knowledge. I then added the necessary buttons, i.e. the clear button to clear the edit text and age input when clicked and the search button to retrieve the information of the entered age. The entered age will display in a text view which I strategically placed over an image of an antique page to add to the historical aesthetic.
+
+BIBLIOGRAPHY
+
+Android Developers. Android app development| google android studio .Available at : https://developer.android.com/studio?gad_source=1&gclid=CjwKCAjwwr6wBhBcEiwAfMEQs7WfLkGNka1tnBb2dZEgdZIgDM9HOHvpxUqYP5G7A_WuTuNF4KZsGBoCuN0QAvD_BwE&gclsrc=aw.ds [accessed 1 April 2024]
+
+2024.Introduction to Mobile application development.IMAD5112/d/p/w.Module manual. available at : 2024https://advtechonline.sharepoint.com/sites/TertiaryStudents/IIE%20Student%20Materials/Forms/Default%20View.aspx?id=%2Fsites%2FTertiaryStudents%2FIIE%20Student%20Materials%2FNew%20Student%20Materials%20CAT%2FIMAD5112%2F2024%2FIMAD5112MM%2Epdf&viewid=db15e059%2D4f93%2D487f%2Dabda%2De538b821c7b8&parent=%2Fsites%2FTertiaryStudents%2FIIE%20Student%20Materials%2FNew%20Student%20Materials%20CAT%2FIMAD5112%2F2024
+
+Kotlin Foundation, 2022c.Null safety.[Online] Available at: 
+https://kotlinlang.org/docs/null-safety.html [1 April 2024].
 
 
